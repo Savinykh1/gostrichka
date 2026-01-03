@@ -1,0 +1,41 @@
+[
+  {
+    "id": "welcome",
+    "date": "2026-01-03",
+    "tags": [
+      "Ambience",
+      "NGO"
+    ],
+    "title": {
+      "uk": "Запуск сайту та новин",
+      "en": "Website and news launch"
+    },
+    "excerpt": {
+      "uk": "Тут ми будемо швидко публікувати новини, анонси та звіти про події Ambience.",
+      "en": "Here we will quickly publish news, announcements, and reports about Ambience events."
+    },
+    "body": {
+      "uk": "Вітаємо на сайті Стрічкоткацької фабрики.\nЦей розділ працює з файлом data/posts.json — просто додай новий об'єкт у масив.\nМожеш писати українською та англійською.",
+      "en": "Welcome to Strichkotkatska Fabryka.\nThis news section is powered by data/posts.json — just add a new object to the array.\nYou can write both Ukrainian and English."
+    }
+  },
+  {
+    "id": "contacts-update",
+    "date": "2026-01-03",
+    "tags": [
+      "Contacts"
+    ],
+    "title": {
+      "uk": "Оновлені контакти організації",
+      "en": "Updated organization contacts"
+    },
+    "excerpt": {
+      "uk": "Зібрали контакти для партнерств, фондів та медіа-запитів.",
+      "en": "We gathered contacts for partnerships, funds, and media requests."
+    },
+    "body": {
+      "uk": "Email: strichkotkatskafabryka@gmail.com\nТелефон/месенджери: +38 (068) 366 17 06 (Telegram/WhatsApp)\nАдреса: Київ, вул. Нижньоюрківська, 31, 04080, Україна",
+      "en": "Email: strichkotkatskafabryka@gmail.com\nPhone/messengers: +38 (068) 366 17 06 (Telegram/WhatsApp)\nAddress: Nyzhnoiurkivska St., 31, Kyiv, 04080, Ukraine"
+    }
+  }
+]

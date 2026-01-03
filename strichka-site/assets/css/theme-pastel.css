@@ -1,0 +1,9 @@
+:root{
+  --bg:#ffffff;
+  --text:#1b1b1b;
+  --muted:#666;
+  --card:#fbf7ff;
+  --border:#ece4ff;
+  --primary:#ff4d8d;
+}
+.site-header{ background: rgba(255,255,255,.85); }

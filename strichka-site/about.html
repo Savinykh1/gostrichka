@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Про нас — Стрічкоткацька фабрика</title>
+  <link rel="stylesheet" href="assets/css/base.css" />
+  <link rel="stylesheet" href="assets/css/theme-default.css" id="themeStylesheet" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-row">
+      <a class="brand" href="index.html">Стрічкоткацька фабрика</a>
+      <nav class="nav">
+        <a href="index.html" data-i18n="nav_home">Головна</a>
+        <a href="news.html" data-i18n="nav_news">Новини</a>
+        <a href="gallery.html" data-i18n="nav_gallery">Галерея</a>
+        <a href="projects.html" data-i18n="nav_projects">Наші проєкти</a>
+        <a href="about.html" class="active" data-i18n="nav_about">Про нас</a>
+        <a href="contacts.html" data-i18n="nav_contacts">Контакти</a>
+      </nav>
+      <div class="header-actions">
+        <select id="themeSelect" class="select" aria-label="Theme">
+          <option value="default">Default</option>
+          <option value="dark">Dark</option>
+          <option value="pastel">Pastel</option>
+        </select>
+        <button class="btn" id="langToggle" type="button">UA / EN</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="section">
+    <div class="container">
+      <div class="section-head">
+        <h1 data-i18n="about_title">Про нас</h1>
+        <p class="muted" data-i18n="about_subtitle">
+          Короткий опис місії та напрямків діяльності для грантових заявок і партнерств.
+        </p>
+      </div>
+
+      <div class="card article">
+        <h2 data-i18n="about_h2_1">Хто ми</h2>
+        <p data-i18n="about_p_1">
+          Стрічкоткацька фабрика — незалежна українська неприбуткова культурна організація, що працює на перетині сучасного мистецтва,
+          експериментальної музики та звукових технологій.
+        </p>
+
+        <h2 data-i18n="about_h2_2">Місія</h2>
+        <p data-i18n="about_p_2">
+          Розвивати сучасну українську культуру через звук, підтримувати інновації, міждисциплінарність і соціально значущі мистецькі формати.
+        </p>
+
+        <h2 data-i18n="about_h2_3">Що ми робимо</h2>
+        <ul>
+          <li data-i18n="about_li_1">Концерти, іммерсивні перформанси, серія Ambience.</li>
+          <li data-i18n="about_li_2">Резиденції та студійні сесії для артистів.</li>
+          <li data-i18n="about_li_3">Освітні події: лекції, воркшопи, практики слухання.</li>
+          <li data-i18n="about_li_4">Партнерські програми та культурні колаборації.</li>
+        </ul>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-row">
+      <div class="muted">© <span id="year"></span> Strichkotkatska Fabryka</div>
+      <div class="muted"><a href="contacts.html" data-i18n="footer_contacts">Контакти</a></div>
+    </div>
+  </footer>
+
+  <script src="assets/js/theme.js"></script>
+  <script src="assets/js/i18n.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>

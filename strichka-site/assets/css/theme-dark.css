@@ -1,0 +1,12 @@
+:root{
+  --bg:#0b0c10;
+  --text:#f3f4f7;
+  --muted:#b5b8c3;
+  --card:#141621;
+  --border:#23263a;
+  --primary:#7c5cff;
+  --shadow: 0 10px 40px rgba(0,0,0,.35);
+}
+.site-header{ background: rgba(11,12,16,.75); }
+code{ background: rgba(255,255,255,.10); }
+.badge{ background: rgba(255,255,255,.06); }

@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Наші проєкти — Стрічкоткацька фабрика</title>
+  <link rel="stylesheet" href="assets/css/base.css" />
+  <link rel="stylesheet" href="assets/css/theme-default.css" id="themeStylesheet" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-row">
+      <a class="brand" href="index.html">Стрічкоткацька фабрика</a>
+      <nav class="nav">
+        <a href="index.html" data-i18n="nav_home">Головна</a>
+        <a href="news.html" data-i18n="nav_news">Новини</a>
+        <a href="gallery.html" data-i18n="nav_gallery">Галерея</a>
+        <a href="projects.html" class="active" data-i18n="nav_projects">Наші проєкти</a>
+        <a href="about.html" data-i18n="nav_about">Про нас</a>
+        <a href="contacts.html" data-i18n="nav_contacts">Контакти</a>
+      </nav>
+      <div class="header-actions">
+        <select id="themeSelect" class="select" aria-label="Theme">
+          <option value="default">Default</option>
+          <option value="dark">Dark</option>
+          <option value="pastel">Pastel</option>
+        </select>
+        <button class="btn" id="langToggle" type="button">UA / EN</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="section">
+    <div class="container">
+      <div class="section-head">
+        <h1 data-i18n="projects_title">Наші проєкти</h1>
+        <p class="muted" data-i18n="projects_subtitle">Короткий перелік напрямків та активностей.</p>
+      </div>
+
+      <div class="grid-3">
+        <div class="card">
+          <h3>Ambience</h3>
+          <p data-i18n="projects_ambience">
+            Серія концертів, резиденцій та студійних сесій з фокусом на експериментальну музику і просторовий звук.
+          </p>
+        </div>
+        <div class="card">
+          <h3 data-i18n="projects_edu_title">Освіта</h3>
+          <p data-i18n="projects_edu">
+            Воркшопи, лекції та практики про звук, слухання, продакшн, медіа-мистецтво.
+          </p>
+        </div>
+        <div class="card">
+          <h3 data-i18n="projects_social_title">Соціальні програми</h3>
+          <p data-i18n="projects_social">
+            Формати, що підсилюють відновлення спільнот через мистецтво та слухацький досвід.
+          </p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-row">
+      <div class="muted">© <span id="year"></span> Strichkotkatska Fabryka</div>
+      <div class="muted"><a href="contacts.html" data-i18n="footer_contacts">Контакти</a></div>
+    </div>
+  </footer>
+
+  <script src="assets/js/theme.js"></script>
+  <script src="assets/js/i18n.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>

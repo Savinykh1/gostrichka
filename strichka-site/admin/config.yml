@@ -1,0 +1,48 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "assets/img"
+public_folder: "/assets/img"
+
+publish_mode: editorial_workflow
+
+collections:
+  - name: "site_data"
+    label: "Site data"
+    files:
+      - file: "data/posts.json"
+        label: "News posts"
+        name: "posts"
+        format: "json"
+        fields:
+          - label: "Posts"
+            name: "posts"
+            widget: "list"
+            summary: "{{fields.id}} — {{fields.date}}"
+            fields:
+              - { label: "ID (unique)", name: "id", widget: "string" }
+              - { label: "Date (YYYY-MM-DD)", name: "date", widget: "datetime", format: "YYYY-MM-DD", time_format: false }
+              - label: "Tags"
+                name: "tags"
+                widget: "list"
+                default: []
+                field: { label: "Tag", name: "tag", widget: "string" }
+              - label: "Title"
+                name: "title"
+                widget: "object"
+                fields:
+                  - { label: "UA", name: "uk", widget: "string" }
+                  - { label: "EN", name: "en", widget: "string" }
+              - label: "Excerpt"
+                name: "excerpt"
+                widget: "object"
+                fields:
+                  - { label: "UA", name: "uk", widget: "text" }
+                  - { label: "EN", name: "en", widget: "text" }
+              - label: "Body"
+                name: "body"
+                widget: "object"
+                fields:
+                  - { label: "UA", name: "uk", widget: "markdown" }
+                  - { label: "EN", name: "en", widget: "markdown" }

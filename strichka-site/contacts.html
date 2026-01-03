@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Контакти — Стрічкоткацька фабрика</title>
+  <link rel="stylesheet" href="assets/css/base.css" />
+  <link rel="stylesheet" href="assets/css/theme-default.css" id="themeStylesheet" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-row">
+      <a class="brand" href="index.html">Стрічкоткацька фабрика</a>
+      <nav class="nav">
+        <a href="index.html" data-i18n="nav_home">Головна</a>
+        <a href="news.html" data-i18n="nav_news">Новини</a>
+        <a href="gallery.html" data-i18n="nav_gallery">Галерея</a>
+        <a href="projects.html" data-i18n="nav_projects">Наші проєкти</a>
+        <a href="about.html" data-i18n="nav_about">Про нас</a>
+        <a href="contacts.html" class="active" data-i18n="nav_contacts">Контакти</a>
+      </nav>
+      <div class="header-actions">
+        <select id="themeSelect" class="select" aria-label="Theme">
+          <option value="default">Default</option>
+          <option value="dark">Dark</option>
+          <option value="pastel">Pastel</option>
+        </select>
+        <button class="btn" id="langToggle" type="button">UA / EN</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="section">
+    <div class="container">
+      <div class="section-head">
+        <h1 data-i18n="contacts_title">Контакти</h1>
+      </div>
+
+      <div class="grid-2">
+        <div class="card">
+          <h2>Стрічкоткацька фабрика</h2>
+          <p class="muted" data-i18n="contacts_tagline">Незалежна українська неприбуткова культурна організація</p>
+
+          <h3 data-i18n="contacts_address">Адреса</h3>
+          <p>
+            <span data-i18n="contacts_address_line1">вул. Нижньоюрківська, 31</span><br />
+            <span data-i18n="contacts_address_line2">м. Київ, 04080, Україна</span>
+          </p>
+
+          <h3>Email</h3>
+          <p>📧 <a href="mailto:strichkotkatskafabryka@gmail.com">strichkotkatskafabryka@gmail.com</a></p>
+
+          <h3 data-i18n="contacts_phone">Телефон / месенджери</h3>
+          <p>📞 <a href="tel:+380683661706">+38 (068) 366 17 06</a><br /><span class="muted">(Telegram / WhatsApp)</span></p>
+        </div>
+
+        <div class="card">
+          <h3 data-i18n="contacts_social">Соціальні мережі</h3>
+          <p>
+            Facebook: <a href="https://fb.com/ambikiev" target="_blank" rel="noreferrer">fb.com/ambikiev</a><br />
+            Instagram (Na Chasi): <a href="https://www.instagram.com/nachasi_" target="_blank" rel="noreferrer">@nachasi_</a><br />
+            Instagram (Ambience): <a href="https://instagram.com/ambience_concerts" target="_blank" rel="noreferrer">@ambience_concerts</a>
+          </p>
+
+          <h3 data-i18n="contacts_people">Контактні особи</h3>
+          <ul>
+            <li data-i18n="contacts_person1">Секретар — Андрій Савіних</li>
+            <li data-i18n="contacts_person2">Керівник — Сергій Вологжанінов</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-row">
+      <div class="muted">© <span id="year"></span> Strichkotkatska Fabryka</div>
+      <div class="muted"><a href="news.html" data-i18n="footer_news">Новини</a></div>
+    </div>
+  </footer>
+
+  <script src="assets/js/theme.js"></script>
+  <script src="assets/js/i18n.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
